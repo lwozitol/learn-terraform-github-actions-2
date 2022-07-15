@@ -12,10 +12,11 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "globant-practice-2"
+  
+    organization = "CHANGE"
 
     workspaces {
-      name = "demo-github-actions"
+      name = "CHANGE"
     }
   }
 }
