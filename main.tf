@@ -16,7 +16,7 @@ terraform {
     organization = "globant-practice"
 
     workspaces {
-      name = "demo-github-actions"
+      name = "demo-github-actions-2"
     }
   }
 }
