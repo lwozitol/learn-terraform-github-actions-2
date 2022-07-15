@@ -13,10 +13,10 @@ terraform {
 
   backend "remote" {
   
-    organization = "CHANGE"
+    organization = "globant-practice"
 
     workspaces {
-      name = "CHANGE"
+      name = "demo-github-actions"
     }
   }
 }
